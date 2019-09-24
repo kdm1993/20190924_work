@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="join.jsp" method="post" >
+		<table>
+		<tr align="center">
+			<td>
+				이름		
+			</td>
+			<td>
+				<input type="text" name="name"><br><br>			
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				성별
+			</td>
+			<td>
+				<select name="gender">
+					<option value="남자">남자</option>
+					<option value="여자">여자</option>
+				</select><br><br>
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				아이디
+			</td>
+			<td>
+				<input type="text" name="id"><br><br>
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				비밀번호
+			</td>
+			<td>
+				<input type="password" name="password1"><br><br>
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				비밀번호 확인
+			</td>
+			<td>
+				<input type="password" name="password2"><br><br>
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				주소
+			</td>
+			<td>
+				<input type="text" name="home"><br><br>
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				전화번호
+			</td>
+			<td>
+				<input type="text" name="phonenum"><br><br>
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				이메일주소
+			</td>
+			<td>
+				<input type="text" name="email"><br><br>
+			</td>
+		</tr>
+		<tr align="center">
+			<td>
+				취미
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td>
+							축구 <input type="checkbox" name="hobby" value="축구">
+						</td>
+						<td>
+							야구 <input type="checkbox" name="hobby" value="야구">
+						</td>
+						<td>
+							농구 <input type="checkbox" name="hobby" value="농구">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							수영 <input type="checkbox" name="hobby" value="수영">
+						</td>
+						<td>
+							게임 <input type="checkbox" name="hobby" value="게임">
+						</td>
+						<td>
+							독서 <input type="checkbox" name="hobby" value="독서">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							음악 <input type="checkbox" name="hobby" value="음악">
+						</td>
+						<td>
+							TV <input type="checkbox" name="hobby" value="TV">
+						</td>
+						<td>
+							영화 <input type="checkbox" name="hobby" value="영화">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							연극 <input type="checkbox" name="hobby" value="연극">
+						</td>
+						<td>
+							뮤지컬 <input type="checkbox" name="hobby" value="뮤지컬">
+						</td>
+						<td>
+							전시 <input type="checkbox" name="hobby" value="전시">
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		</table><hr/>
+		<input type="submit" value="회원가입">
+	</form>
+</body>
+</html>
